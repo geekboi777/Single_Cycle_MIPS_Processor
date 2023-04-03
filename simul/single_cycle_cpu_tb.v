@@ -31,16 +31,20 @@ end
 always begin
  #5 clk=~clk;
  end
-$dumpfile("dump.vcd");
-
-reg     [31:0]  registers [31:0];
-generate
-  genvar idx;
-  for(idx = 0; idx < 32; idx = idx+1) begin: register
-    wire [31:0] tmp;
-    assign tmp = registers[idx];
-
-$dumpvars(0,tmp);
-end
-endgenerate
+ initial begin
+ 	$dumpfile("dump.vcd");
+ 	$dumpvars(0,dut);
+ 	end
+ 	
+// $dumpfile("dump.vcd");
+// 
+// reg     [31:0]  registers [31:0];
+// generate
+//   genvar idx;
+//   for(idx = 0; idx < 32; idx = idx+1) begin: register
+//     wire [31:0] tmp;
+//     assign tmp = registers[idx];
+// 
+// $dumpvars(0,tmp);
+// end
 endmodule
