@@ -11,6 +11,33 @@ To run:
 
 ![Register File Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Initial%20Register%20Contents.png)
 
+## Instructions Used:
+
+```VERILOG
+
+INSTRUCTIONS USED:
+
+AND  $3, $1, $2
+OR   $4, $1, $2
+NOR  $5, $1, $2
+NAND $6, $1, $2
+ADD  $7, $1, $2
+SUB  $8, $1, $2
+SLT  $9, $1, $2
+SLT  $10, $2, $1
+lw   $11, 0004($0)
+sw   $11, 0004($0)
+beq  $0, $3, start
+j    80
+beq  $0, $3, start
+
+```
+
 ## Updated View of the Register File:
 
 ![Register File Updated Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Updated_register_contents.png)
+
+
+## Waveform
+
+![Waveform](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Waveforms.png)
