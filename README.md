@@ -9,7 +9,7 @@ To run:
 
 ## Existing view on the Register File:
 
-![Register File Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Initial%20Register%20Contents.png)
+![Register File Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/REG_File.png)
 
 ## Instructions Used:
 
