@@ -7,6 +7,10 @@ To run:
 * Use a simulator such as iverilog to compile the testbench / stimulus file
 * Use Scansion / GTKWave or any alternate Waveform viewer to view the dump.vcd file generated to view the waveforms.
 
-# Existing view on the Register File:
+## Existing view on the Register File:
 
 ![Register File Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Initial%20Register%20Contents.png)
+
+## Updated View of the Register File:
+
+![Register File Updated Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Updated_register_contents.png)
