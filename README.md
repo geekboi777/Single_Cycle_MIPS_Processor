@@ -35,7 +35,7 @@ beq  $0, $3, start
 
 ## Updated View of the Register File:
 
-![Register File Updated Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Updated_register_contents.png)
+![Register File Updated Contents](https://github.com/geekboi777/Single_Cycle_MIPS_Processor/blob/main/img/Updated_REG_FILE.png)s
 
 
 ## Waveform
